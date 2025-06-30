@@ -415,7 +415,13 @@ src="https://www.facebook.com/tr?id=3170011223147667&ev=PageView&noscript=1"
 
     <button type="submit">إرسال الطلب</button>
   </form>
-
+  <script>
+  document.getElementById("orderForm").addEventListener("submit", function () {
+    setTimeout(function () {
+      window.location.href = "https://haithem432.github.io/Tomilunettes/thank-you.html";
+    }, 100);
+  });
+</script>
 <script>
   (function() {
     // Shipping prices based on Wilaya and delivery place (home/office)
